@@ -133,7 +133,7 @@ Account Active        Authenticated         Password Updated
 
 **Arbaz Mudassar**
 - GitHub: [@arbazmudassar](https://github.com/arbazmudassar)
-- LinkedIn: [linkedin.com/in/arbazmudassar](https://linkedin.com/in/arbazmudassar)
+- LinkedIn: [linkedin.com/in/arbazmudassar](https://linkedin.com/in/arbaz-mudassar)
 
 ---
 
