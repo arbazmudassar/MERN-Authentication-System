@@ -50,21 +50,7 @@ frontend/
 | `/login` | Login form | Public |
 | `/verify-email` | OTP verification | Public |
 | `/forgot-password` | Forgot password form | Public |
-| `/reset-password` | New password form | Public |
 | `/dashboard` | User dashboard | 🔒 Protected |
-
----
-
-## 🛡️ Protected Routes
-
-Routes marked as protected require a valid JWT access token. Unauthenticated users are automatically redirected to `/login`.
-
-```tsx
-// Example usage
-<ProtectedRoute>
-  <Dashboard />
-</ProtectedRoute>
-```
 
 ---
 
