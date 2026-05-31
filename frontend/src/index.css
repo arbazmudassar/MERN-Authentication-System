@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root{
+  --primary-color: #ff6800;
+  --primary-light: #f9fafb;
+  --primary-dark: #111827;
+  --secondary-gray: #6b7280;
+  --secondary-light: #e5e7eb;
+  --secondary-dark: #0f172a;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3882f6;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,body,#root{
+  width: 100%;
+  min-height: 100vh;
+}
+.gradient{
+  background: linear-gradient(#ff8a33, #ff6b00);
+}
+.danger{
+  color: var(--error);
+}
+.success{
+  color: var(--success);
+}
+.primary{
+  color: var(--primary-color);
+}
+.bg-light{
+  background-color: var(--primary-light);
+}
+.warning{
+  color: var(--warning);
+}
+.btn{
+  background: linear-gradient(#ff8a33, #ff6b00);
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid var(--primary-color);
+  color: white;
+  transition: all 0.9s ease-in-out;
+}
+.sec-btn{
+  background: transparent;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid gray;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+  background: transparent;
+  color: var(--primary-color);
+}
+.sec-btn:hover{
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.slow{
+  animation-duration: 3s !important;
+}
