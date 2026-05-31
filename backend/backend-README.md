@@ -207,4 +207,5 @@ npm start         # Start without nodemon (production)
 
 ## 👨‍💻 Author
 **Arbaz Mudassar** · [@arbazmudassar](https://github.com/arbazmudassar)
+
 **LinkedIn** . [@linkedin](www.linkedin.com/in/arbaz-mudassar)
