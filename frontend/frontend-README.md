@@ -11,25 +11,15 @@ frontend/
 ├── public/
 └── src/
     ├── 📂 pages/             # Route-level page components
-    │   ├── Register.tsx
-    │   ├── Login.tsx
-    │   ├── VerifyEmail.tsx
-    │   ├── ForgotPassword.tsx
-    │   ├── ResetPassword.tsx
+    │   ├── Auth
+    │   │   ├── SignUp.tsx
+    │   │   ├── SignIn.tsx
+    │   │   ├── VerifyEmail.tsx
+    │   │   └── ForgotPassword.tsx
     │   └── Dashboard.tsx
     │
     ├── 📂 components/        # Reusable UI components
-    │   ├── Navbar.tsx
-    │   ├── FormInput.tsx
-    │   ├── OTPInput.tsx
-    │   └── ProtectedRoute.tsx
-    │
-    ├── 📂 routes/            # App routing configuration
-    │   └── AppRouter.tsx
-    │
-    ├── 📂 hooks/             # Custom React hooks
-    │   ├── useAuth.ts
-    │   └── useForm.ts
+    │   └── AuthSideBar.tsx
     │
     ├── 📂 assets/            # Static assets (images, icons)
     │
@@ -147,3 +137,5 @@ All API calls are made to the backend server. Base URL is configured via the `VI
 ## 👨‍💻 Author
 
 **Arbaz Mudassar** · [@arbazmudassar](https://github.com/arbazmudassar)
+
+**LinkedIn** . [@LinkedIn](www.linkedin.com/in/arbaz-mudassar)
