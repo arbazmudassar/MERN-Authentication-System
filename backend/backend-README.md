@@ -10,32 +10,28 @@ The server-side of the MERN Authentication System, built with **Node.js**, **Exp
 backend/
 ├── 📂 config/              # App configuration (env, constants)
 │   └── config.js
+│   └── database.js          #Database Connection
 │
 ├── 📂 controllers/         # Route handler logic
 │   └── auth.controller.js
 │
-├── 📂 database/            # Database connection
-│   └── connect.js
 │
 ├── 📂 middlewares/         # Express middleware
 │   ├── auth.middleware.js  # JWT verification
-│   └── error.middleware.js # Global error handler
 │
 ├── 📂 models/              # Mongoose schemas
 │   ├── user.model.js
 │   └── session.model.js
+│   └── otp.model.js
 │
 ├── 📂 routes/              # API route definitions
 │   └── auth.routes.js
 │
 ├── 📂 services/            # Business logic layer
-│   ├── auth.service.js
 │   └── email.service.js
 │
 ├── 📂 utils/               # Helper utilities
-│   ├── jwt.utils.js        # Token generation/verification
-│   ├── hash.utils.js       # SHA-256 & bcrypt helpers
-│   └── otp.utils.js        # OTP generation & expiry
+│   └── utils.js        # OTP generation & expiry
 │
 ├── .env                    # Environment variables (not committed)
 ├── .env.example            # Example env file
@@ -74,8 +70,9 @@ backend/
 | `POST` | `/verify-email` | Verify OTP from email | No |
 | `POST` | `/resend-otp` | Resend verification OTP | No |
 | `POST` | `/forgot-password` | Send password reset OTP | No |
+| `POST` | `/verify-forgot-password-otp` | Verify password reset OTP | No |
 | `POST` | `/reset-password` | Reset password with OTP | No |
-| `POST` | `/refresh` | Refresh access token | No (uses cookie) |
+| `POST` | `/refresh-token` | Refresh access token | No (uses cookie) |
 
 ---
 
