@@ -143,11 +143,13 @@ npm install
 Create a `.env` file in the `/backend` directory:
 
 ```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_KEY=your_strong_jwt_secret_key
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_gmail_app_password
+MONGO_URI = db_link
+JWT_KEY = jwt_secret key
+GOOGLE_CLIENT_ID = enter here
+GOOGLE_CLIENT_SECRET = enter here
+GOOGLE_REFRESH_TOKEN = enter here
+GOOGLE_USER = google mail here
+
 ```
 
 > **Note:** Use a Gmail App Password (not your account password). Enable it at: Google Account → Security → 2FA → App Passwords.
